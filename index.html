@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>НМТ Репетитор - Головна</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .hero {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .hero img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        .hero-text {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">НМТ Репетитор</div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="services.html">Послуги</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero">
+            <img src="https://berktreelearning.com/wp-content/uploads/2018/09/Services-Images-PrivateTutoring-03.jpg" alt="Онлайн репетиторство НМТ">
+            <div class="hero-text">
+                <h1>Підготовка до НМТ з найкращими викладачами</h1>
+                <p>Онлайн заняття з математики, української мови та історії. Підготовка до НМТ на результат!</p>
+                <a href="services.html" class="btn" style="margin-top: 1rem;">Дізнатися більше</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 НМТ Репетитор. Всі права захищені.</p>
+        </div>
+    </footer>
+</body>
+</html>
