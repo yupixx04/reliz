@@ -1,4 +1,3 @@
-     <script>
     document.querySelectorAll('.enroll-btn').forEach(button => {
         button.addEventListener('click', function() {
             const courseId = this.getAttribute('data-id') || Date.now().toString();
@@ -27,4 +26,3 @@
             alert('Курс додано до замовлення!');
         });
     });
-</script>
